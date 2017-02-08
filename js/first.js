@@ -12,6 +12,6 @@ app.controller('FirstController', function($scope) {
         // $scope.first = "";
         // $scope.last = "";
 
-        $scope.NAME = $scope.first + " " + $scope.last
+        $scope.NAME = ($scope.first + " " + $scope.last).toUpperCase();
     };
 });
